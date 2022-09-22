@@ -13,8 +13,8 @@ public class Team {
 
     void sumPersonal(int staff){
         int i = players + coaches;
-        System.out.println("Кількість людей в команді: " + i);
-        System.out.println("Кількість персоналу в команді: " + staff);
+        System.out.println("РљС–Р»СЊРєС–СЃС‚СЊ Р»СЋРґРµР№ РІ РєРѕРјР°РЅРґС–: " + i);
+        System.out.println("РљС–Р»СЊРєС–СЃС‚СЊ РїРµСЂСЃРѕРЅР°Р»Сѓ РІ РєРѕРјР°РЅРґС–: " + staff);
     }
     int trophy() {
         return trophies;
