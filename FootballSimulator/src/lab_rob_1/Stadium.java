@@ -17,6 +17,6 @@ public class Stadium {
         return length*width;
     }
     void showStadium(String city){
-        System.out.println("Вмістимість стадіону: " + capacity + ", назва стадіону: " + nameOfStadium + ", місто в якому розташований стадіон: " + city);
+        System.out.println("Р’РјС–СЃС‚РёРјС–СЃС‚СЊ СЃС‚Р°РґС–РѕРЅСѓ: " + capacity + ", РЅР°Р·РІР° СЃС‚Р°РґС–РѕРЅСѓ: " + nameOfStadium + ", РјС–СЃС‚Рѕ РІ СЏРєРѕРјСѓ СЂРѕР·С‚Р°С€РѕРІР°РЅРёР№ СЃС‚Р°РґС–РѕРЅ: " + city);
     }
 }
