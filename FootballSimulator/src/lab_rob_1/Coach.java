@@ -16,12 +16,12 @@ public class Coach {
     void improveSkills(boolean win, double w, double lD){
         if (win == true){
              double s = skills + w;
-            System.out.println("Навики тренера збільшилися на: " + w);
-            System.out.println("Нові навики тренера: " + s);
+            System.out.println("РќР°РІРёРєРё С‚СЂРµРЅРµСЂР° Р·Р±С–Р»СЊС€РёР»РёСЃСЏ РЅР°: " + w);
+            System.out.println("РќРѕРІС– РЅР°РІРёРєРё С‚СЂРµРЅРµСЂР°: " + s);
         } else {
             double n = skills - lD;
-            System.out.println("Навики тренера зменшилися на: " + lD);
-            System.out.println("Нові навики тренера: " + n);
+            System.out.println("РќР°РІРёРєРё С‚СЂРµРЅРµСЂР° Р·РјРµРЅС€РёР»РёСЃСЏ РЅР°: " + lD);
+            System.out.println("РќРѕРІС– РЅР°РІРёРєРё С‚СЂРµРЅРµСЂР°: " + n);
         }
 
     }
