@@ -4,18 +4,18 @@ public class Main {
     public static void main(String[] args) {
         Team team = new Team(28, 9, 0);
         team.sumPersonal(23);
-        System.out.println("Трофеї команди: " + team.trophy());
+        System.out.println("РўСЂРѕС„РµС— РєРѕРјР°РЅРґРё: " + team.trophy());
 
         System.out.println();
 
         Coach coach = new Coach("Luis Kastro", 50, 12, 2);
         coach.improveSkills(true, 2.3, 1.6);
-        System.out.println("Вік тренера: " + coach.showAge());
+        System.out.println("Р’С–Рє С‚СЂРµРЅРµСЂР°: " + coach.showAge());
 
         System.out.println();
 
         Stadium stadium = new Stadium(160, 140, 80455, "Donbas Arena");
-        System.out.println("Площа стадіону становить: " + stadium.square());
+        System.out.println("РџР»РѕС‰Р° СЃС‚Р°РґС–РѕРЅСѓ СЃС‚Р°РЅРѕРІРёС‚СЊ:: " + stadium.square());
         stadium.showStadium("Donetsk");
 
     }
