@@ -24,7 +24,10 @@ public class Team{
     }
     void improve(int transfers, String... names){ //  метод із статичним імям і динамічною логікою
         System.out.println("Кількість трансферів команди: " + transfers);
-        System.out.println("Прізвища новачків: " + names);
+        System.out.println("Прізвища новачків: ");
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
 
     }
 
