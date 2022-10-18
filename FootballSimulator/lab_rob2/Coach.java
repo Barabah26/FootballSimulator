@@ -35,7 +35,10 @@ public class Coach{
 
     void improve(int study, String... clubs) { //  метод із статичним імям і динамічною логікою
         System.out.println("Кількість пройдених курсів тренера: " + study);
-        System.out.println("Клуби в яких тренер проходив навчання: " + clubs);
+        System.out.println("Клуби в яких тренер проходив навчання: ");
+        for (int i = 0; i < clubs.length; i++) {
+            System.out.println(clubs[i]);
+        }
         if (study >= 3) {
             skills++;
             System.out.println("Нові навики тренера: " + skills);
