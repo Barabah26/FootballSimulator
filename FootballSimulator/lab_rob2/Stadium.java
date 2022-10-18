@@ -38,7 +38,10 @@ public class Stadium {
 
     void improve(int newCapacity, String... names){ //  метод із статичним імям і динамічною логікою
         System.out.println("Вмістимість стадіону після модернізації стадіону: " + newCapacity);
-        System.out.println("Варіанти нової назви стадіону: " + names);
+        System.out.println("Варіанти нової назви стадіону: ");
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
 
     }
     Stadium stUp(int i, int c, String n){
